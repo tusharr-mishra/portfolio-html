@@ -4,51 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Projects</h1>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <h2>Tushar</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="education.html">Education</a>
+            <a href="experience.html">Experience</a>
+            <a href="achievements.html">Achievements</a>
+        </nav>
     </header>
 
-    <main>
+    <section class="section">
+        <h1>Projects</h1>
 
-        <section>
-            <h3>Major Projects</h3>
+        <div class="projects-container">
 
-            <ul>
-                <li>
-                    <b>Flight Delay Prediction using Deep Learning</b><br>
-                    Developed a model using DNN and attention mechanisms to predict flight delays 
-                    based on historical aviation data.
-                </li>
+            <div class="card">
+                <h3>Flight Delay Prediction</h3>
+                <p>
+                    Worked on an attention-based deep learning model to predict flight delays 
+                    using historical aviation data (~85% accuracy). Focused on analysis and reporting.
+                </p>
+                <span>Python • DNN • CNN</span>
+            </div>
 
-                <br>
+            <div class="card">
+                <h3>Flora Care Manager</h3>
+                <p>
+                    Team-based cpp based console application to manage plant care workflows.
+                </p>
+                <span>C++ • OOP • File Handling</span>
+            </div>
 
-                <li>
-                    <b>AI-Driven Predictive Maintenance Research</b><br>
-                    Studied AI-based approaches in aviation to improve operational reliability and efficiency.
-                </li>
-            </ul>
-        </section>
+            <div class="card">
+                <h3>Carbon Footprint Analyzer</h3>
+                <p>
+                    Built a Java-based system to estimate carbon footprint using basic input flows and logic.
+                </p>
+                <span>Java</span>
+            </div>
 
-        <br>
+            <div class="card">
+                <h3>Predictive Maintenance Research</h3>
+                <p>
+                    Research project exploring AI-driven maintenance strategies in aviation systems.
+                </p>
+                <span>ML • Research</span>
+            </div>
 
-        <section>
-            <h3>Other Work</h3>
+            <div class="card">
+                <h3>Personal Portfolio (HTML)</h3>
+                <p>
+                    Multi-page portfolio project built using HTML and improved with CSS styling.
+                </p>
+                <span>HTML • CSS</span>
+            </div>
 
-            <p>
-                Built multiple beginner-level projects in C++, Java, and Web Development as part of 
-                academic curriculum and self-learning.
-            </p>
-        </section>
+        </div>
+    </section>
 
-        <hr>
-
-        <a href="index.html">Back to Home Page</a>
-
-    </main>
+    <footer>
+        <p>© 2026 Tushar Mishra</p>
+    </footer>
 
 </body>
 </html>
