@@ -28,11 +28,12 @@ It was later improved using CSS to enhance layout, spacing, and overall visual d
 
 ## Features
 
-- Multi-page website structure  
-- Sections for education, skills, projects, and experience  
-- Navigation across pages  
-- Improved layout using CSS (spacing, colors, typography)  
-- Project cards and structured sections  
+• Multi-page website structure  
+• Sections for education, skills, projects, and experience  
+• Navigation across pages  
+• Improved layout using CSS (spacing, colors, typography)  
+• Project cards and structured sections  
+• Integrated external components (LinkedIn profile badge) 
 
 ---
 
